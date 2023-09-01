@@ -1,5 +1,11 @@
+import Button from './component/Button.jsx';
+
 const App = () => {
-  return <h1>App</h1>;
+  return (
+    <main>
+      <Button>Log in with Google</Button>
+    </main>
+  );
 };
 
 export default App;
