@@ -32,8 +32,10 @@ button {
 }
 
 button > svg {
-  margin-right: 7px;
+  margin-right: 0.5em;
   color: green;
+  display: flex;
+  align-items: center;
   height: 1.5em;
   width: 1.5em;
 }
