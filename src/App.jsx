@@ -1,19 +1,20 @@
-import Button from './component/Button.jsx';
-import { FcGoogle } from 'react-icons/fc';
+import Avatar from './component/Avatar.jsx';
+import profil from './assets/MyPicProfile.jpg';
 
 const App = () => {
   return (
-    <main>
-      <Button
-        variant="warning"
-        className="green"
-        size="lg"
-        onClick={() => console.log('Logging in')}
-      >
-        <FcGoogle />
-        Log in with Google
-      </Button>
-    </main>
+    <>
+      <Avatar avatar="avatar">
+        <img src={profil} alt="profil" />
+      </Avatar>
+      <br />
+      <Avatar avatar="avatar" icon="avatar-icon" />
+      <br />
+      <Avatar letters="avatar-letters" avatar="avatar">
+        SS
+      </Avatar>
+      <br />
+    </>
   );
 };
 
