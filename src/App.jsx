@@ -5,12 +5,13 @@ const App = () => {
   return (
     <main>
       <Button
-        variant
-        style={{ fontSize: '2rem' }}
-        onClick={() => console.log('Logging in..')}
+        variant="warning"
+        className="green"
+        size="lg"
+        onClick={() => console.log('Logging in')}
       >
         <FcGoogle />
-        Buy now!
+        Log in with Google
       </Button>
     </main>
   );
