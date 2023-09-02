@@ -4,16 +4,11 @@ import profil from './assets/MyPicProfile.jpg';
 const App = () => {
   return (
     <>
-      <Avatar avatar="avatar">
-        <img src={profil} alt="profil" />
-      </Avatar>
+      <Avatar src={profil} alt="Photo Profil" />
       <br />
-      <Avatar avatar="avatar" icon="avatar-icon" />
+      <Avatar>SS</Avatar>
       <br />
-      <Avatar letters="avatar-letters" avatar="avatar">
-        SS
-      </Avatar>
-      <br />
+      <Avatar />
     </>
   );
 };
